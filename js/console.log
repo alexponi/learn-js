@@ -62,5 +62,31 @@ document.write
 document.write(20*100)
 //undefined
 console.log(20/100)
-VM605:1 0.2
+//VM605:1 0.2
 //undefined
+var myVar3 = true
+//undefined
+myVar3
+//true
+var myVar4 = "true"
+//undefined
+myVar4
+//"true"
+7 > 5
+//true
+7 < 5
+//false
+7 == 5
+//false
+Boolean(5)
+//true
+Boolean(-5)
+//true
+Boolean(3)
+//true
+Boolean(0)
+//false
+Boolean("hello")
+//true
+Boolean("")
+//false
