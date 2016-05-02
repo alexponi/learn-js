@@ -1,0 +1,66 @@
+var myVariableShaun;
+//undefined
+var myVariableShaun = 10;
+//undefined
+myVariableShaun = 10;
+//10
+var myVar2 = "hello"
+//undefined
+myVar2
+//"hello"
+myVar2 = "hello again"
+//"hello again"
+myVar2 = 5
+//5
+100 + "hello"
+//"100hello"
+100 + 5
+//105
+myVar = myVar / 2
+//VM359:1 Uncaught ReferenceError: myVar is not defined(…)(anonymous function) @ VM359:1InjectedScript._evaluateOn @ VM53:145InjectedScript._evaluateAndWrap @ VM53:137InjectedScript.evaluate @ VM53:118
+myVar2 = myVar2 / 2
+//2.5
+5 * "hello"
+//NaN
+myVar2 += 5
+//7.5
+myVar2
+//7.5
+myVar2
+//7.5
+myVar2 *= 2
+//15
+myVar2
+//15
+myVar2++
+//15
+myVar2
+//16
+myVar2
+//16
+++myVar2
+//17
+++myVar2
+//18
+++myVar2
+//19
+myVar2
+//19
+var myVar = "Shaun"
+//undefined
+document.write
+//write() { [native code] }
+document.write(myVar)
+//undefined
+document.write(myVar)
+//undefined
+console.log(myVar)
+//VM543:1 Shaun
+//undefined
+document.write
+//write() { [native code] }
+document.write(20*100)
+//undefined
+console.log(20/100)
+VM605:1 0.2
+//undefined
