@@ -90,3 +90,31 @@ Boolean("hello")
 //true
 Boolean("")
 //false
+var x = 5
+//undefined
+x =5
+//5
+var x = 5
+//undefined
+x
+//5
+ x = 5
+//5
+ x == 5
+//true
+ x === 5
+//true
+x = "5"
+//"5"
+ x === 5
+//false
+ x == 5
+//true
+ x != 5
+//false
+ x != 4
+//true
+ x = "5"
+//"5"
+x !== 5
+//true
