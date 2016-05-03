@@ -1,0 +1,32 @@
+[25, 35, true, "hello"]
+console.log(myArray)
+VM368:1 [25, 35, true, "hello"]
+undefined
+myArray[2] = false;
+false
+console.log(myArray)
+VM370:1 [25, 35, false, "hello"]
+undefined
+var myArray2 = [10, 20, "hi', false]
+VM423:1 Uncaught SyntaxError: Unexpected token ILLEGAL(…)
+var myArray2 = [10, 20, "hi", false]
+undefined
+myArray2
+[10, 20, "hi", false]
+var myArray3 = new Array()
+undefined
+myArray3
+[]
+myArray2.le
+undefined
+myArray2.length
+4
+myArray2.sort
+sort() { [native code] }
+myArray2.sort()
+[10, 20, false, "hi"]
+myArray2.reverse
+reverse() { [native code] }
+myArray2.reverse()
+["hi", false, 20, 10]
+﻿
