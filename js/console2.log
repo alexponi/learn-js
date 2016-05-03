@@ -1,0 +1,28 @@
+var str = "hello, world"
+undefined
+var str2 = str.slice()
+undefined
+str2
+"hello, world"
+var str2 = str.slice(2, 9)
+undefined
+str2
+"llo, wo"
+var str2 = str.slice(2)
+undefined
+str2
+"llo, world"
+tags = "one, two, tree"
+"one, two, tree"
+var tagsArray = tags.split(",")
+undefined
+tagsArray
+["one", " two", " tree"]
+tagsArray.split[0]
+VM475:1 Uncaught TypeError: Cannot read property '0' of undefined(…)(anonymous function) @ VM475:1InjectedScript._evaluateOn @ (program):145InjectedScript._evaluateAndWrap @ (program):137InjectedScript.evaluate @ (program):118
+tagsArray.split[1]
+VM476:1 Uncaught TypeError: Cannot read property '1' of undefined(…)(anonymous function) @ VM476:1InjectedScript._evaluateOn @ (program):145InjectedScript._evaluateAndWrap @ (program):137InjectedScript.evaluate @ (program):118
+tagsArray.split(0)
+VM487:1 Uncaught TypeError: tagsArray.split is not a function(…)(anonymous function) @ VM487:1InjectedScript._evaluateOn @ (program):145InjectedScript._evaluateAndWrap @ (program):137InjectedScript.evaluate @ (program):118
+tagsArray[0]
+"one"
